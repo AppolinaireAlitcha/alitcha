@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primaryColor: #EF7B20;
+    --color-primary: #f07c24;
+    --color-primary-2: #c8d4b4;
+    --color-secondary: #F7BD91;
+    --color-secondary-2: #7A9254;
+    --color-text: #585858;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.icon{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
